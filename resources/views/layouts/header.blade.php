@@ -1,8 +1,8 @@
 <!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
-        <img src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30"
-            class="d-inline-block align-top" alt="">
+        <img src="{{ asset('images/logo.jpg') }}" width="30" height="30" class="d-inline-block align-top"
+            alt="">
         E-VOTING
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
